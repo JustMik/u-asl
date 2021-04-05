@@ -1,4 +1,4 @@
-package it.justmik.dev.model;
+package com.justmik.uasl.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,5 +1,5 @@
 
-package it.justmik.dev.view;
+package com.justmik.uasl.view;
 
 
 import javax.swing.JComponent;

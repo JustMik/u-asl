@@ -1,6 +1,6 @@
-package it.justmik.dev;
+package com.justmik.uasl;
 
-import it.justmik.dev.controller.Controller;
+import com.justmik.uasl.controller.Controller;
 
 import java.awt.EventQueue;
 

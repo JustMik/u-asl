@@ -1,23 +1,22 @@
-package it.justmik.dev.controller;
+package com.justmik.uasl.controller;
 
-import java.awt.EventQueue;
 import java.util.ArrayList;
 import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
-import it.justmik.dev.model.AdminModel;
-import it.justmik.dev.model.LoginModel;
-import it.justmik.dev.model.Model;
-import it.justmik.dev.model.PazientiModel;
-import it.justmik.dev.view.AdminView;
-import it.justmik.dev.view.LoginView;
-import it.justmik.dev.view.MedicoView;
-import it.justmik.dev.view.PazientiView;
-import it.justmik.dev.view.PersonaleAmbulatorioView;
-import it.justmik.dev.view.PersonaleAslView;
-import it.justmik.dev.view.RegisterView;
-import it.justmik.dev.view.View;
+import com.justmik.uasl.model.Model;
+import com.justmik.uasl.view.MedicoView;
+import com.justmik.uasl.view.PazientiView;
+import com.justmik.uasl.view.PersonaleAmbulatorioView;
+import com.justmik.uasl.model.AdminModel;
+import com.justmik.uasl.model.LoginModel;
+import com.justmik.uasl.model.PazientiModel;
+import com.justmik.uasl.view.AdminView;
+import com.justmik.uasl.view.LoginView;
+import com.justmik.uasl.view.PersonaleAslView;
+import com.justmik.uasl.view.RegisterView;
+import com.justmik.uasl.view.View;
 
 public class Controller 
 {

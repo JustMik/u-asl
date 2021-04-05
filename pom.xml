@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>it.justmik.dev</groupId>
+    <groupId>com.justmik.uasl</groupId>
     <artifactId>ingegneria-sw</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -80,7 +80,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
-                            <mainClass>it.justmik.dev.IngSwMain</mainClass>
+                            <mainClass>com.justmik.uasl.IngSwMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

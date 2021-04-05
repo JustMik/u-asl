@@ -17,7 +17,7 @@
  */
 
 
-package it.justmik.dev.view;
+package com.justmik.uasl.view;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -94,8 +94,8 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 import com.toedter.calendar.JDateChooser;
 
-import it.justmik.dev.controller.Controller;
-import it.justmik.dev.model.PazientiModel;
+import com.justmik.uasl.controller.Controller;
+import com.justmik.uasl.model.PazientiModel;
 
 
 public class PazientiView extends FocusablePanel {

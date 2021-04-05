@@ -1,4 +1,4 @@
-package it.justmik.dev.model;
+package com.justmik.uasl.model;
 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;

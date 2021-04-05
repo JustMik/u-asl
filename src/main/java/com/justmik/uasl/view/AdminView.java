@@ -1,4 +1,4 @@
-package it.justmik.dev.view;
+package com.justmik.uasl.view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -27,8 +27,8 @@ import javax.swing.JButton;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import it.justmik.dev.controller.Controller;
-import it.justmik.dev.model.AdminModel;
+import com.justmik.uasl.controller.Controller;
+import com.justmik.uasl.model.AdminModel;
 
 public class AdminView extends FocusablePanel {
 

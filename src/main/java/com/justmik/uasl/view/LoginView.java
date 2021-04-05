@@ -1,4 +1,4 @@
-package it.justmik.dev.view;
+package com.justmik.uasl.view;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -14,10 +14,8 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import it.justmik.dev.controller.Controller;
-import it.justmik.dev.model.LoginModel;
-
-
+import com.justmik.uasl.controller.Controller;
+import com.justmik.uasl.model.LoginModel;
 
 
 public class LoginView extends FocusablePanel implements ActionListener{

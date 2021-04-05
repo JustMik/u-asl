@@ -1,4 +1,4 @@
-package it.justmik.dev.view;
+package com.justmik.uasl.view;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -6,18 +6,13 @@ import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -28,8 +23,8 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import it.justmik.dev.controller.Controller;
-import it.justmik.dev.model.LoginModel;
+import com.justmik.uasl.controller.Controller;
+import com.justmik.uasl.model.LoginModel;
 
 public class RegisterView extends FocusablePanel implements ActionListener{
 	

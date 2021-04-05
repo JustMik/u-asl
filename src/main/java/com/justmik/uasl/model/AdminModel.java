@@ -1,4 +1,4 @@
-package it.justmik.dev.model;
+package com.justmik.uasl.model;
 
 import java.sql.Statement;
 import java.sql.Connection;
