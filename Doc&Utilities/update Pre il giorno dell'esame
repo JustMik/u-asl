@@ -1,0 +1,8 @@
+update visite set avvenutavisita='NO' where data_visita >= CURRENT_DATE;
+
+update visite set avvenutavisita='SI' where data_visita < CURRENT_DATE;
+
+update visite set id_medico='MED001' where data_visita < CURRENT_DATE;
+
+update visite set id_visita='6' where data_visita < CURRENT_DATE;
+
